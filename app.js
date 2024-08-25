@@ -12,6 +12,7 @@
 // var time = "times";
 // alert(visit  +n  + 'time')
 
+// Question no 03//
 
 // document.write("<P>My birth Year is 2007<P>")
 // var type = " Data type of my decleared variabile is ";
