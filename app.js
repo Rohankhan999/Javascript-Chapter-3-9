@@ -49,7 +49,59 @@
 //     "<p>Variable names can only contain $ , Numbers  and _  For Example : $my_1stVariable</p>" +
 // "<p>Variable must began with a letter, $ or _ . For Example $name , _name, or name.</p>" +
 // "<p>Variable names are Case Sensitive</p> " + 
-// "<p>Variable names should no be JS Keywords.</p>" )
+// "<p>Variable names should no be JS Keywords.</p>" 
+
+// Chapter no 05 //(MATH EXPRESSIONS)
+
+// Question no 01 & 02//
+
+// var a = 8 ;
+// var b = 12 ;
+// var result = a + b ;
+// document.write("The Sum of 8 and 12 is " +  result )
+
+// For subtraction//
+
+// var a = 12 ;
+// var b = 8 ;
+// var result = a - b ;
+// document.write("The Subtraction of  8 and 12 is " +  result )
+
+// For Multiply//
+
+
+// var a = 9 ;
+// var b = 8 ;
+// var result = a * b ;
+// document.write("The Answer of  9 muliply by 8 is " +  result );
+
+// For division//
+
+// var a = 21 ;
+// var b = 2 ;
+// var result = a % b ;
+// document.write("The Reminder of  2 and 21 is " +  result );
+
+// For Modulus//
+
+// var a = 3 ;
+// var b = 10 ;
+// var result = a / b ;
+// document.write("The Modulus of  3 and 10 is " +  result );
+
+// question no 03 //
+
+// var my_variable ;
+
+// var num = 35 ;
+// document.write("Value after variable declaration is : " + num) ;
+
+//  var number = 23 ;
+
+var num = 19;
+document.write("Intiail Value is : " + num)
+ 
+
 
 
 
