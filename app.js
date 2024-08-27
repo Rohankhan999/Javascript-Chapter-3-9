@@ -98,8 +98,12 @@
 
 //  var number = 23 ;
 
-var num = 19;
-document.write("Intiail Value is : " + num)
+// var num = 19;
+// document.write("Intiail Value is : " + num);
+ 
+//  var incraement = 35 ;
+//  console.log(++incraement);
+
  
 
 
