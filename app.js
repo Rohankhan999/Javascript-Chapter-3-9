@@ -117,6 +117,11 @@
 // document.write("Value after division is:  0 "  );
 
 // Question no 4//
+ var ticket = 600 ;
+ var sell = 5 ;
+ var result = ticket * sell ;
+ document.write("Total cost to buy 5 tickets to a movie is : " + result + "PKR")
+ 
 
 
 
