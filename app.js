@@ -91,18 +91,42 @@
 
 // question no 03 //
 
-// var my_variable ;
+//  var my_variable = "hello" ;
+// document.write("Value after variable decleration is: " +  my_variable);
 
-// var num = 35 ;
-// document.write("Value after variable declaration is : " + num) ;
+// var num ;
+// console.log(num)
+// document.write("Value after variable Initialization is: " +  num);
 
-//  var number = 23 ;
+// var increament = 5 ;
+// console.log(++increament);
+// document.write("Value after Increament is: " +  increament);
 
-// var num = 19;
-// document.write("Intiail Value is : " + num);
- 
-//  var incraement = 35 ;
-//  console.log(++incraement);
+// var add1 = 6  ;
+// var  add2 = 7 ;
+// var result = add1 + add2 ;
+// document.write("Value after variable addiction is: "  + result );
+
+
+// var decreament = 13 ;
+// console.log(--decreament);
+// document.write("Value after decreament is: " +  decreament);
+
+// var division = 12 ;
+// console.log(division / 12 );
+// document.write("Value after division is:  0 "  );
+
+// Question no 4//
+
+
+
+
+
+
+
+
+
+
 
  
 
