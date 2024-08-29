@@ -117,11 +117,34 @@
 // document.write("Value after division is:  0 "  );
 
 // Question no 4//
- var ticket = 600 ;
- var sell = 5 ;
- var result = ticket * sell ;
- document.write("Total cost to buy 5 tickets to a movie is : " + result + "PKR")
+
+//  var ticket = 600 * 5 ;
+//  document.write("Total cost to buy 5 tickets to a movie is : " + ticket + "PKR");
  
+// Question no 5//
+
+// var n = 4 * 1;
+// document.write("<h3>TABLE OF 4</h3> 4 x 1 = "+ n );
+// n = 4 * 2 ;
+// document.write( "<p> 4 x 2 = "+ n );
+// n = 4 * 3 ;
+// document.write( "<p> 4 x 3 = "+ n );
+// n = 4 * 4 ;
+// document.write( "<p> 4 x 4 = "+ n );
+// n = 4 * 5 ;
+// document.write( "<p> 4 x 5 = "+ n );
+// n = 4 * 6 ;
+// document.write( "<p> 4 x 6 = "+ n );
+// n = 4 * 7 ;
+// document.write( "<p> 4 x 7 = "+ n );
+// n = 4 * 8 ;
+// document.write( "<p> 4 x 8 = "+ n );
+// n = 4 * 9 ;
+// document.write( "<p> 4 x 9 = "+ n );
+// n = 4 * 10 ;
+// document.write( "<p> 4 x 10 = "+ n );
+
+
 
 
 
