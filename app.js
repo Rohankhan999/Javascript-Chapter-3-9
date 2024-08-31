@@ -123,29 +123,158 @@
  
 // Question no 5//
 
-// var n = 4 * 1;
-// document.write("<h3>TABLE OF 4</h3> 4 x 1 = "+ n );
-// n = 4 * 2 ;
-// document.write( "<p> 4 x 2 = "+ n );
-// n = 4 * 3 ;
-// document.write( "<p> 4 x 3 = "+ n );
-// n = 4 * 4 ;
-// document.write( "<p> 4 x 4 = "+ n );
-// n = 4 * 5 ;
-// document.write( "<p> 4 x 5 = "+ n );
-// n = 4 * 6 ;
-// document.write( "<p> 4 x 6 = "+ n );
-// n = 4 * 7 ;
-// document.write( "<p> 4 x 7 = "+ n );
-// n = 4 * 8 ;
-// document.write( "<p> 4 x 8 = "+ n );
-// n = 4 * 9 ;
-// document.write( "<p> 4 x 9 = "+ n );
-// n = 4 * 10 ;
-// document.write( "<p> 4 x 10 = "+ n );
+var n = 4 * 1;
+document.write("<h3>TABLE OF 4</h3> 4 x 1 = "+ n );
+n = 4 * 2 ;
+document.write( "<p> 4 x 2 = "+ n );
+n = 4 * 3 ;
+document.write( "<p> 4 x 3 = "+ n );
+n = 4 * 4 ;
+document.write( "<p> 4 x 4 = "+ n );
+n = 4 * 5 ;
+document.write( "<p> 4 x 5 = "+ n );
+n = 4 * 6 ;
+document.write( "<p> 4 x 6 = "+ n );
+n = 4 * 7 ;
+document.write( "<p> 4 x 7 = "+ n );
+n = 4 * 8 ;
+document.write( "<p> 4 x 8 = "+ n );
+n = 4 * 9 ;
+document.write( "<p> 4 x 9 = "+ n );
+n = 4 * 10 ;
+document.write( "<p> 4 x 10 = "+ n );
 
 
 
+// Question No 6
+ // (a)
+//  var celsius = 25; 
+
+ // (b)
+//  var fahrenheitFromCelsius = (celsius * 9/5) + 32;
+//  document.write (celsius + "°C is " + fahrenheitFromCelsius + "°F" + "<br>");
+
+ // (c)
+//  var fahrenheit = 70; 
+
+ // (d)
+//  var celsiusFromFahrenheit = (fahrenheit - 32) * 5/9;
+//  document.write (fahrenheit + "°F is " + celsiusFromFahrenheit + "°C");
+
+// Question No 7
+// document.write ("<h1>Shopping Cart</h1>" + "<br>")
+// var priceItem1 = 650; 
+// var priceItem2 = 100; 
+// var quantityItem1 = 3; 
+// var quantityItem2 = 7;
+// var shippingCharges = 100; 
+// var totalCostItem1 = priceItem1 * quantityItem1;
+// var totalCostItem2 = priceItem2 * quantityItem2;
+// var totalCost = totalCostItem1 + totalCostItem2 + shippingCharges;
+// var receipt =
+//               "Price of item 1: " + priceItem1 + " PKR<br>" +
+//               "Quantity of item 1: " + quantityItem1 + "<br>" +
+//               "Price of item 2: " + priceItem2 + " PKR<br>" +
+//               "Quantity of item 2: " + quantityItem2 + "<br>" +
+//               "Shipping Charges: " + shippingCharges + " PKR <br><br>" +
+//               "<b>Total Cost Of Your Order Is: " + totalCost + " PKR</b>";
+
+// document.write (receipt) ;
+
+
+// Question No 8
+// document.write ("<h1>Marks Sheet</h1>" + "<br>")
+// var totalMarks = 980; 
+// var marksObtained = 804; 
+// var percentage = (marksObtained / totalMarks) * 100;
+
+// document.write ("Total Marks: " + totalMarks + "<br>" +"Marks Obtained: " + marksObtained + "<br>" +"Percentage: " + percentage + "%");
+
+
+// Question No 9
+// document.write ("<h1>Currency In PKR</h1>" + "<br>")
+// var usdToPkr = 104.80; 
+// var sarToPkr = 28;     
+// var usdAmount = 10; 
+// var sarAmount = 25; 
+// var totalPkr = (usdAmount * usdToPkr) + (sarAmount * sarToPkr);
+
+// document.write ("Total Currency In PKR: " + totalPkr);
+
+// Question No 10
+// var initialNumber = 13; 
+// var result = ((initialNumber + 5) * 10) / 2;
+// document.write ("The Result Of The Arithmetic Operations Is: " + result);
+
+// Question No 11
+// document.write ("<h1>Age Calculator</h1>" + "<br>")
+// var currentYear = 2024
+// var birthYear = 2001;
+// var age = currentYear - birthYear; 
+// document.write  ("Current Year: " + currentYear + "<br>" + "Birth Year: " + birthYear + "<br>" + "Your Age Is: " + age) ;
+
+
+// Question No 12
+// document.write ("<h1>The Geometrizer</h1>" + "<br>")
+// var radius = 20; 
+// var pi = 3.142;
+// var circumference = 2 * pi * radius;
+// var area = pi * Math.pow(radius, 2);
+
+// document.write  ("Radius Of Circle: " + radius + "<br>");
+// document.write  ("The circumference is: " + circumference + "<br>");
+// document.write ("The area is: " + area);
+
+
+// // Question No 13
+// document.write ("<h1>The Life Time Supply Calculator</h1>" + "<br>")
+// var favoriteSnack = "Chocolate Chip"; 
+// var currentAge = 15; 
+// var maximumAge = 65; 
+// var dailyAmount = 3; 
+// var yearsRemaining = maximumAge - currentAge;
+// var totalAmount = yearsRemaining  * dailyAmount;
+// document.write ("You will need " + totalAmount + " " + favoriteSnack + " to last you until the ripe old age of " + maximumAge + ".");
+
+
+
+// CHAPTER NO 6
+
+// Question No 1
+// var a = 10;  
+
+// document.write("Result:<br>");
+// document.write("The value of a is: " + a + "<br>");
+// document.write("----------------------------------------<br>");
+
+// document.write("The value of ++a is: " + (++a) + "<br>");
+// document.write("Now the value of a is: " + a + "<br><br>");
+
+// document.write("The value of a++ is: " + (a++) + "<br>");
+// document.write("Now the value of a is: " + a + "<br><br>");
+
+// document.write("The value of --a is: " + (--a) + "<br>");
+// document.write("Now the value of a is: " + a + "<br><br>");
+
+// document.write("The value of a-- is: " + (a--) + "<br>");
+// document.write("Now the value of a is: " + a + "<br>");
+
+
+// Question No 2
+// var a = 2;
+// document.write ("--a: " + (--a) + "<br>");
+
+// var a = 2;
+// var b = 1;
+// document.write ("--a - --b: " + (--a - --b) + "<br>");
+
+// var a = 2;
+// var b = 1;
+// document.write ("--a - --b + ++b: " + (--a - --b + ++b) + "<br>");
+   
+// var a = 2;
+// var b = 1;
+// document.write ("--a - --b + ++b + b--: " + (--a - --b + ++b + b--) + "<br>");
 
 
 
